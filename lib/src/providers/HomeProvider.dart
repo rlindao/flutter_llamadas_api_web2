@@ -17,7 +17,7 @@ class HomeProvider {
   final hostname = 'jsonplaceholder.typicode.com';
 
   Future<List<Post>> getPosts() async {
-    final uri = Uri.http(hostname, '/posts');
+    final uri = Uri.https(hostname, '/posts');
 
     final response = await http.get(uri);
 
