@@ -52064,7 +52064,7 @@ X.OM.prototype={
 nq:function(){var s=0,r=P.a8(t.h0),q,p
 var $async$nq=P.a2(function(a,b){if(a===1)return P.a5(b,r)
 while(true)switch(s){case 0:s=3
-return P.a1(G.alK(P.ajA("http","jsonplaceholder.typicode.com","/posts",null)),$async$nq)
+return P.a1(G.alK(P.ajA("https","jsonplaceholder.typicode.com","/posts",null)),$async$nq)
 case 3:p=b
 q=Z.ahk(C.bi.cp(0,B.alC(U.ajX(p.e).c.a.h(0,"charset")).cp(0,p.x))).a
 s=1
